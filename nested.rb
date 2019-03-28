@@ -16,7 +16,7 @@ def hopper
         }
      }
 
-
+programmer_hash[:grace_hopper]
 end
 
 def alan_kay_is_known_for
@@ -37,6 +37,11 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+     
+     #for this lab we must retrieve the hash key, then key again 
+     # hash[:key][:key]
+     
+     programmer_hash[:alan_kay] [:known_for]
 end
 
 def dennis_ritchies_language
@@ -55,6 +60,10 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+#to return the languages, we must retrieve hash : key, then key again. 
+#Note: language is placed in brackets therefore treat as an array. (retrieve with index)
+programmer_hash[:dennis_ritchie][:languages][0]
+
 end
 
 def adding_matz
@@ -80,6 +89,16 @@ def adding_matz
         }
      }
 
+#to place a new hash, follow formulae hash["key2"] - "value2" *Note: Treat yukihiro_matsumoto is contains two keys 
+# of information. It's has an "array" of keys and vaules. What does this mean? {} > [] !
+      
+      
+      programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :language => ["LISP", "C"]}
+      
+     
+      
+       programmer_hash
+  
     
 end
 
@@ -100,7 +119,12 @@ def changing_alan
         }
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
+     
+     #to change the hash, assign variable for new information then move assigning hash:key:key = new_value
      alans_new_info = "GUI"
+     programmer_hash[:alan_kay][:known_for] = "GUI"
+  
+     programmer_hash
      
      
 end
@@ -121,5 +145,15 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+     
+     
+     #to add a language to dennis_ritchie, we can #follow our formulae of hash[:key][:key] and ruby will accept
+     #using shovel method simlar to arrays, push in #our new value to the language [:key].
+
+     #hash[:key][:key] << "new_value"
+     
+programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+
+programmer_hash
 
 end
