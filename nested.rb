@@ -90,7 +90,11 @@ def adding_matz
      }
 
 #to place a new hash, follow formulae hash["key2"] - "value2"
-
+      programmer_hash[:yukihiro_matsumoto] = [:known_for]
+      yukihiro_matsumoto[:known_for] = "Ruby"
+      yukihiro_matsumoto:[:language] = ["LISP", "C"]
+      
+      
   
     
 end
@@ -113,7 +117,7 @@ def changing_alan
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
-     programmer_hash[:alan_kay][:known_for] = "GUI"
+     programmer_hash[:alan_kay] = "GUI"
      programmer_hash[:alan_kay][:known_for]
      
      
