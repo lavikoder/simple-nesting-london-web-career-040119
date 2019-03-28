@@ -93,7 +93,7 @@ def adding_matz
 # of information. It's has an "array" of keys and vaules. What does this mean? {} > [] !
       
       
-      programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :language = ["LISP", "C"]}
+      programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :language => ["LISP", "C"]}
       
      
       
