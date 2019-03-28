@@ -89,11 +89,12 @@ def adding_matz
         }
      }
 
-#to place a new hash, follow formulae hash["key2"] - "value2"
+#to place a new hash, follow formulae hash["key2"] - "value2" *Note: Treat yukihiro_matsumoto is contains two keys 
+# of information. It's has an "array" of keys and vaules.
       
       programmer_hash[:yukihiro_matsumoto]
       
-      [:yukihiro_matsumoto][:known_for] = "Ruby"
+      [:yukihiro_matsumoto][:known_for => "Ruby"],[:language] = ["LISP", "C"]
       
       [:yukihiro_matsumoto][:language] = ["LISP", "C"]
       
