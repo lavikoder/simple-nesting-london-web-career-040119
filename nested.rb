@@ -91,7 +91,7 @@ def adding_matz
 
 #to place a new hash, follow formulae hash["key2"] - "value2"
       
-      programmer_hash[:yukihiro_matsumoto] = [:known_for]
+      programmer_hash[:yukihiro_matsumoto]
       
       [:yukihiro_matsumoto][:known_for] = "Ruby"
       
