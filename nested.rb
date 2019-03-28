@@ -145,6 +145,10 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+     #to add a language to dennis_ritchie, we can #follow our formulae of hash[:key][:key] and #using shovel method simlar to arrays, add in #our new value to the language key.
+
+     #hash[:key][:key] << "new_value"
+     
 programmer_hash[:dennis_ritchie][:languages] << "Assembly"
 
 programmer_hash
