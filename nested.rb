@@ -145,7 +145,10 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-     #to add a language to dennis_ritchie, we can #follow our formulae of hash[:key][:key] and #using shovel method simlar to arrays, add in #our new value to the language key.
+     
+     
+     #to add a language to dennis_ritchie, we can #follow our formulae of hash[:key][:key] and ruby will accept
+     #using shovel method simlar to arrays, push in #our new value to the language [:key].
 
      #hash[:key][:key] << "new_value"
      
